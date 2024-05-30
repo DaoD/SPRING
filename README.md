@@ -33,5 +33,4 @@ Retrieval-augmented generation (RAG) is a promising way to improve large languag
 Please kindly cite our paper if it helps your research:
 ```BibTex
 
-}
 ```
