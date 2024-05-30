@@ -10,9 +10,20 @@
 
 <p>
 📃 <a href="">ArXiv Paper</a>
-  •
-🤗 <a href="https://huggingface.co/">Dataset</a>
 </p>
+
+<p>
+🤗 HuggingFace Model List
+</p>
+
+| Model                                                                            | Backbone Model                                                          |
+|:---------------------------------------------------------------------------------|:------------------------------------------------------------------------|
+| [SPRING-LLaMA-2-7b-chat]()   | [LLaMA-2-7b-chat](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf) |
+| [SPRING-LLaMA-2-7b-base]()   | [LLaMA-2-7b](https://huggingface.co/meta-llama/Llama-2-7b-hf)           |
+| [SPRING-Mistral-7b-instruct]()         | [Mistral-7B-Instruct-v0.1](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1)          |
+| [SPRING-Mistral-7b]()           | [Mistral-7b-v0.1](https://huggingface.co/mistralai/Mistral-7B-v0.1)               |
+| [SPRING-Phi-3-mini]()           | [Phi-3-mini-4k-instruct](huggingface.co/microsoft/Phi-3-mini-4k-instruct)              |
+| [SPRING-QWen-1.8b-chat]()           | [Qwen1.5-1.8B-Chat](https://huggingface.co/Qwen/Qwen1.5-1.8B-Chat)              |
 
 ## Introduction
 
