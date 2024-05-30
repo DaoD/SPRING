@@ -1,16 +1,11 @@
 # SPRING: Learning Scalable and Pluggable Virtual Tokens for Retrieval-Augmented Large Language Models
 
 <p>
-<a href="https://github.com/DaoD/SPRING/blob/main/LICENSE">
-<img src="https://img.shields.io/badge/MIT-License-blue" alt="license">
-</a>
+<a href="https://github.com/DaoD/SPRING/blob/main/LICENSE"><img src="https://img.shields.io/badge/MIT-License-blue" alt="license"></a>
+<a href=""><img src="https://img.shields.io/badge/Paper-Arxiv-red"></a>
 </p>
 
 **Authors**: Yutao Zhu, Zhaoheng Huang, Zhicheng Dou, and Ji-Rong Wen
-
-<p>
-📃 <a href="">ArXiv Paper</a>
-</p>
 
 <p>
 🤗 HuggingFace Model List
