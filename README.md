@@ -2,7 +2,7 @@
 
 <p>
 <a href="https://github.com/DaoD/SPRING/blob/main/LICENSE"><img src="https://img.shields.io/badge/MIT-License-blue" alt="license"></a>
-<a href=""><img src="https://img.shields.io/badge/Paper-Arxiv-red"></a>
+<a href="https://arxiv.org/abs/2405.19670"><img src="https://img.shields.io/badge/Paper-Arxiv-red"></a>
 </p>
 
 **Authors**: Yutao Zhu, Zhaoheng Huang, Zhicheng Dou, and Ji-Rong Wen
