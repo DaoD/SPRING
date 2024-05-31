@@ -30,5 +30,18 @@ Retrieval-augmented generation (RAG) is a promising way to improve large languag
 ## Citation
 Please kindly cite our paper if it helps your research:
 ```BibTex
-
+@article{SPRING,
+  author       = {Yutao Zhu and
+                  Zhaoheng Huang and
+                  Zhicheng Dou and
+                  Ji{-}Rong Wen},
+  title        = {One Token Can Help! Learning Scalable and Pluggable Virtual Tokens for Retrieval-Augmented Large Language Models},
+  journal      = {CoRR},
+  volume       = {abs/2405.19670},
+  year         = {2024},
+  url          = {https://doi.org/10.48550/arXiv.2405.19670},
+  doi          = {10.48550/ARXIV.2405.19670},
+  eprinttype    = {arXiv},
+  eprint       = {2405.19670}
+}
 ```
