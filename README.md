@@ -1,7 +1,7 @@
 # SPRING: Learning Scalable and Pluggable Virtual Tokens for Retrieval-Augmented Large Language Models
 
 <p>
-<a href="https://github.com/DaoD/SPRING/blob/main/LICENSE"><img src="https://img.shields.io/badge/MIT-License-blue" alt="license"></a>
+<a href="https://github.com/DaoD/SPRING/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue" alt="license"></a>
 <a href="https://arxiv.org/abs/2405.19670"><img src="https://img.shields.io/badge/Paper-Arxiv-red"></a>
 <a href="https://huggingface.co/yutaozhu94/SPRING"><img src="https://img.shields.io/badge/Embeddings-%F0%9F%A4%97%20Hugging%20Face-8A2BE2"></a>
 </p>
