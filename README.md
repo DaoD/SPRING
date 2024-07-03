@@ -33,7 +33,7 @@ transformers          4.37.0
 ```
 
 ### Example code
-We provide an example code in `example.py`
+We provide an example code in `example.py`.
 
 ### Load token embeddings
 ```python
