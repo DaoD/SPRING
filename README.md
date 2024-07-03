@@ -8,10 +8,6 @@
 
 **Authors**: Yutao Zhu, Zhaoheng Huang, Zhicheng Dou, and Ji-Rong Wen
 
-<p>
-🤗 HuggingFace Model List
-</p>
-
 | Virtual token embeddings file                                                    | Backbone Model                                                          |
 |:---------------------------------------------------------------------------------|:------------------------------------------------------------------------|
 | mistral.7b.instruct.added_token_embeddings.pt       | [Mistral-7B-Instruct-v0.1](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1)                |
