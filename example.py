@@ -2,7 +2,7 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 def load_tokens(model, tokenizer, token_embedding_path=""):
-    new_tokens_weights = torch.load(tokens_path)
+    new_tokens_weights = torch.load(token_embedding_path)
     new_tokens_length = new_tokens_weights.shape[0]
 
     # expand vocabulary
