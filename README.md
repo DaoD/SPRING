@@ -32,6 +32,9 @@ torch                 2.0.0
 transformers          4.37.0
 ```
 
+### Example code
+We provide an example coed in `example.py`
+
 ### Load token embeddings
 ```python
 def load_tokens(model, tokenizer, token_embedding_path=""):
