@@ -75,6 +75,10 @@ model_path = "path/to/Mistral-7B-Instruct-v0.1"
 model = AutoModelForCausalLM.from_pretrained(model_path)
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 model, tokenizer = load_tokens(model, tokenizer, tokens_path="/path/to/mistral.7b.instruct.added_token_embeddings.pt")
+
+...
+model.generate(...)
+
 ```
 
 
