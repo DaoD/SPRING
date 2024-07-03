@@ -1,7 +1,7 @@
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-def load_tokens(model, tokenizer, tokens_path=""):
+def load_tokens(model, tokenizer, token_embedding_path=""):
     new_tokens_weights = torch.load(tokens_path)
     new_tokens_length = new_tokens_weights.shape[0]
 
@@ -35,7 +35,7 @@ def load_tokens(model, tokenizer, tokens_path=""):
 model_path = "path/to/Mistral-7B-Instruct-v0.1"
 model = AutoModelForCausalLM.from_pretrained(model_path)
 tokenizer = AutoTokenizer.from_pretrained(model_path)
-model, tokenizer = load_tokens(model, tokenizer, tokens_path="/path/to/mistral.7b.instruct.added_token_embeddings.pt")
+model, tokenizer = load_tokens(model, tokenizer, token_embedding_path="/path/to/mistral.7b.instruct.added_token_embeddings.pt")
 model.cuda()
 model.eval()
 tokenizer.pad_token = tokenizer.eos_token
