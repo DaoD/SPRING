@@ -12,14 +12,14 @@
 🤗 HuggingFace Model List
 </p>
 
-| Model                                                                            | Backbone Model                                                          |
+| Virtual token embeddings file                                                    | Backbone Model                                                          |
 |:---------------------------------------------------------------------------------|:------------------------------------------------------------------------|
-| [SPRING-LLaMA-2-7b-chat]()   | [LLaMA-2-7b-chat](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf) |
-| [SPRING-LLaMA-2-7b-base]()   | [LLaMA-2-7b](https://huggingface.co/meta-llama/Llama-2-7b-hf)           |
-| [SPRING-Mistral-7b-instruct]()         | [Mistral-7B-Instruct-v0.1](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1)          |
-| [SPRING-Mistral-7b]()           | [Mistral-7b-v0.1](https://huggingface.co/mistralai/Mistral-7B-v0.1)               |
-| [SPRING-Phi-3-mini]()           | [Phi-3-mini-4k-instruct](huggingface.co/microsoft/Phi-3-mini-4k-instruct)              |
-| [SPRING-QWen-1.8b-chat]()           | [Qwen1.5-1.8B-Chat](https://huggingface.co/Qwen/Qwen1.5-1.8B-Chat)              |
+| mistral.7b.instruct.added_token_embeddings.pt       | [Mistral-7B-Instruct-v0.1](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1)                |
+| mistral.7b.base.added_token_embeddings.pt           | [Mistral-7b-v0.1](https://huggingface.co/mistralai/Mistral-7B-v0.1)                                  |
+| llama2.7b.chat.added_token_embeddings.pt            | [LLaMA-2-7b-chat](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf)                              |
+| llama2.7b.base.added_token_embeddings.pt            | [LLaMA-2-7b](https://huggingface.co/meta-llama/Llama-2-7b-hf)                                        |
+| llama2.13b.chat.added_token_embeddings.pt           | [LLaMA-2-7b-chat](https://huggingface.co/meta-llama/Llama-2-13b-chat-hf)                             |
+| llama2.13b.base.added_token_embeddings.pt           | [LLaMA-2-7b-base](https://huggingface.co/meta-llama/Llama-2-13b-hf)                                  |
 
 ## News
 - May, 2024: We have released our paper on arXiv. The code and models are preparing and will be released later.
