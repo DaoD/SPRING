@@ -82,7 +82,8 @@ model, tokenizer = load_tokens(model, tokenizer, token_embedding_path="/path/to/
 # using 50 tokens as an example
 added_tokens = [f" [ref{i}]" for i in range(1, 51)]
 added_tokens = "".join(added_tokens)
-retrieved_results = ""
+retrieved_results = "..."
+question = "..."
 text = [f"{retrieved_results}{added_tokens}Question: {question}\nAnswer:"]
 
 ...
