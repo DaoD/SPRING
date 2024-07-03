@@ -30,8 +30,6 @@ def load_tokens(model, tokenizer, tokens_path=""):
     # note: we should avoid using the function resize_token_embeddings() because this function will also change the lm_head of the model
     embedding_layer.weight.data = new_embedding_weights
 
-    # model.resize_token_embeddings(len(tokenizer))
-
     return model, tokenizer
 
 model_path = "path/to/Mistral-7B-Instruct-v0.1"
