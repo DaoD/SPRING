@@ -75,9 +75,19 @@ model_path = "path/to/Mistral-7B-Instruct-v0.1"
 model = AutoModelForCausalLM.from_pretrained(model_path)
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 model, tokenizer = load_tokens(model, tokenizer, token_embedding_path="/path/to/mistral.7b.instruct.added_token_embeddings.pt")
+```
+
+### Add virtual tokens to the input
+```python
+# using 50 tokens as an example
+added_tokens = [f" [ref{i}]" for i in range(1, 51)]
+added_tokens = "".join(added_tokens)
+retrieved_results = ""
+text = [f"{retrieved_results}{added_tokens}Question: {question}\nAnswer:"]
 
 ...
-model.generate(...)
+
+outputs = model.generate(...)
 
 ```
 
