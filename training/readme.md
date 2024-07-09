@@ -1,15 +1,12 @@
-This is for training.
-
-
-###
-
 ### Usage
+This directory provides the code for training SPRING tokens. Our code is based on the original code in PEFT.
 
 ### Required packages
 ```
 accelerate            0.26.1
 deepspeed             0.14.0
 flash-attn            2.5.6
+peft                  0.8.2
 tqdm                  4.66.1
 torch                 2.0.0
 transformers          4.37.0
