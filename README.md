@@ -18,7 +18,7 @@
 | llama2.13b.base.added_token_embeddings.pt           | [LLaMA-2-7b-base](https://huggingface.co/meta-llama/Llama-2-13b-hf)                                  |
 
 ## News
-- July, 2024: We have released the training code for our method.
+- July, 2024: We have released the training code of our method.
 - July, 2024: We have uploaded our trained token embeddings and provided an example code to use them.
 - May, 2024: We have released our paper on arXiv. The code and models are preparing and will be released later.
 
