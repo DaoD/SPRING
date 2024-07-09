@@ -1,4 +1,4 @@
-### Usage
+## Usage
 This directory provides the code for training SPRING tokens. Our code is based on the original code in PEFT.
 
 ### Required packages
@@ -46,7 +46,7 @@ TOKENIZERS_PARALLELISM=True accelerate launch --config_file zero1_gpu.yml finetu
   --max_length 800
 ```
 
-### Extract and Save Token Embeddings
+### Extract and Save Token Embeddings for Inference
 Set the path and run the following code:
 ```bash
 python tool.py
