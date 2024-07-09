@@ -39,6 +39,7 @@ test_data = {
 ```
 
 ### Training
+Set the path and run the following code:
 ```bash
 TOKENIZERS_PARALLELISM=True accelerate launch --config_file zero1_gpu.yml finetune_spring_tuning.py \
   --model_path path/to/model \
@@ -46,4 +47,10 @@ TOKENIZERS_PARALLELISM=True accelerate launch --config_file zero1_gpu.yml finetu
   --tokenizer_path path/to/tokenizer \
   --dataset path/to/data.jsonl \
   --max_length 800
+```
+
+### Extract and Save Token Embeddings
+Set the path and run the following code:
+```bash
+python tool.py
 ```
