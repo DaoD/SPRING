@@ -14,8 +14,8 @@
 | mistral.7b.base.added_token_embeddings.pt           | [Mistral-7b-v0.1](https://huggingface.co/mistralai/Mistral-7B-v0.1)                                  |
 | llama2.7b.chat.added_token_embeddings.pt            | [LLaMA-2-7b-chat](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf)                              |
 | llama2.7b.base.added_token_embeddings.pt            | [LLaMA-2-7b](https://huggingface.co/meta-llama/Llama-2-7b-hf)                                        |
-| llama2.13b.chat.added_token_embeddings.pt           | [LLaMA-2-7b-chat](https://huggingface.co/meta-llama/Llama-2-13b-chat-hf)                             |
-| llama2.13b.base.added_token_embeddings.pt           | [LLaMA-2-7b-base](https://huggingface.co/meta-llama/Llama-2-13b-hf)                                  |
+| llama2.13b.chat.added_token_embeddings.pt           | [LLaMA-2-13b-chat](https://huggingface.co/meta-llama/Llama-2-13b-chat-hf)                             |
+| llama2.13b.base.added_token_embeddings.pt           | [LLaMA-2-13b](https://huggingface.co/meta-llama/Llama-2-13b-hf)                                  |
 
 ## News
 - July, 2024: We have released the training code of our method.
