@@ -17,6 +17,8 @@
 | llama2.13b.chat.added_token_embeddings.pt           | [LLaMA-2-13b-chat](https://huggingface.co/meta-llama/Llama-2-13b-chat-hf)                             |
 | llama2.13b.base.added_token_embeddings.pt           | [LLaMA-2-13b](https://huggingface.co/meta-llama/Llama-2-13b-hf)                                  |
 
+For datasets, please refer to [FlashRAG](https://github.com/RUC-NLPIR/FlashRAG).
+
 ## News
 - Dec, 2024: Cheers! SPRING has been accepted by AAAI 2025!
 - July, 2024: We have released the training code of our method.
