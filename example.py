@@ -52,7 +52,7 @@ test_data = {
         ]
 }
 
-added_tokens = [f" [ref{i}]" for i in range(1, 51)]
+added_tokens = [f"[ref{i}]" for i in range(1, 51)]
 added_tokens = "".join(added_tokens)
 text = [f"[1] {test_data['ret_passages'][0]}\n[2] {test_data['ret_passages'][1]}\n[3] {test_data['ret_passages'][2]}\n\n{added_tokens}Question: {test_data['question']}\nAnswer:"]
 text_encode = tokenizer(text, padding="longest", max_length=750, truncation=True, return_attention_mask=True, return_tensors="pt", add_special_tokens=True)
