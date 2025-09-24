@@ -100,7 +100,7 @@ outputs = model.generate(...)
 ## Citation
 Please kindly cite our paper if it helps your research:
 ```BibTex
-@inproceedings{DBLP:conf/aaai/0001HDW25,
+@inproceedings{SPRING,
   author       = {Yutao Zhu and
                   Zhaoheng Huang and
                   Zhicheng Dou and
